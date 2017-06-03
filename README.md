@@ -1,5 +1,5 @@
-hexpub
-======
+hexpub: <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" width="30px" height="30px"> + <img src="https://cdn.travis-ci.com/images/logos/TravisCI-Mascot-1-20feeadb48fc2492ba741d89cb5a5c8a.png" width="30px" height="30px"> + ![Hex](https://avatars3.githubusercontent.com/u/6621265?v=3&s=30) = :+1:
+=======
 
 Keeping our packages up to date on [Hex.pm](https://hex.pm) is something we all
 forget too easily. This little script and Travis CI configuration automates 
