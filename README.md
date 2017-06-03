@@ -1,10 +1,10 @@
 hexpub
 ======
 
-Keeping our packages up-to-update is something we all forget too easily. This 
-little script automatically publishes your package to [Hex.pm](https://hex.pm) 
-when you tag your repository.
-
+Keeping our packages up to date on [Hex.pm](https://hex.pm) is something we all
+forget too easily. This little script and Travis CI configuration automates 
+publishing when you tag your Git repository.
+ 
 Because Travis CI has no Hex.pm [deployment provider](https://docs.travis-ci.com/user/deployment/) 
 (yet), we’ll have to do some more work. This solution is based on 
 [an article by Tristan Sloughter](http://blog.erlware.org/automatic-hex-package-publishing-with-travis-ci/).  
