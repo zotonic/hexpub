@@ -33,9 +33,9 @@ Let’s go!
               - chmod +x hexpub.sh 
               - ./hexpub.sh
             skip_cleanup: true
-          on:
-            tags: true
-            all_branches: true
+            on:
+              tags: true
+              all_branches: true
     ```
 
 2. Log in to [Travis CI](https://travis-ci.org), and under your project’s 
