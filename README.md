@@ -17,14 +17,14 @@ Let’s go!
     ```yml
     language: erlang
     otp_release:
-      - 19.3
+      - 20.0
       # ...
     # ...
 
     jobs:
       include:
         - stage: deploy
-          otp_release: 19.3
+          otp_release: 20.0
           script: skip
           deploy:
             provider: script
